@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../../public/images2/background5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.heading-container {
+  height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url('../../../public/images2/Vegetable.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  top: -22px;
+  bottom: 20px;
+}
+
+.main-heading {
+  font-size: 10vw;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 23vh;
+}
+
+.sub-heading {
+  font-size: 1.5vw;
+  font-weight: 80;
+  letter-spacing: 1vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 23vh;
+}
+
+.cont {
+  margin: 5%;
+}
+
+#About {
+  margin-bottom: 3%;
+  font-size: 3.5rem;
+}
+
+
+footer {
+  width:100%;
+  position: relative;
+  height: 100%;
+  margin-bottom:-20px;
+  background: linear-gradient(to bottom left, rgb(192, 183, 183), rgba(207, 215, 230, 0.8));
+  color: black;
+  font-family: 'Coiny', cursive;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.rw {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex;
+  justify-content: space-between;
+}
+
+.cl {
+  padding: 20px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.cl:not(:last-child) {
+  margin-right: 20px;
+}
+
+.cl:nth-child(2),
+.cl:nth-child(3) {
+  flex-basis: 25%;
+}
+
+.footer-about {
+  width: 190px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.fotter-para {
+  width: 190px;
+  margin-left: 50px;
+}
+
+.cl h3 {
+  width: fit-content;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.contact {
+  position: relative;
+  align-items: left;
+}
+
+.language-dropdown {
+  margin-top: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+#language-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #bbd8bc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.back-to-top-btn {
+  text-decoration: none;
+  position: absolute;
+  padding: 8px 7px;
+  background-color: #094408;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.back-to-top-btn:hover {
+  background-color: #457e44;
+}
+
+.form2 {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #121111;
+  margin-bottom: 50px;
+  color: #000;
+}
+
+.form2 .far {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.form2 input {
+  width: 100%;
+  background: transparent;
+  color: #100505;
+  border: 0;
+  outline: none;
+}
+
+.form2 .button2 {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.form2 .button2 .fas {
+  font-size: 16px;
+  color: #302b2b;
+}
+
+.social-icons .fa-brands {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+  color: #000;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+footer .hr {
+  width: 90%;
+  border: 2px;
+  border-bottom: 1px solid rgb(21, 20, 20);
+  margin:0;
+}
+
+.underline {
+  width: 100%;
+  height: 5px;
+  background: #132925;
+  border-radius: 3px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.underline span {
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    left: -10%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+#reviews {
+  text-align: center;
+  background-color: #678983;
+  color: white;
+  margin-bottom: -10px;
+}
+
+.review-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.review-img {
+  /* These  was originally set in Pre React Version. Was causing irregular size for image.*/
+  /* width: 10%; */
+  width: 100px;
+  height: 130px;
+
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
